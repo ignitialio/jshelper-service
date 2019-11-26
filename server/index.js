@@ -1,7 +1,7 @@
 const Gateway = require('@ignitial/iio-services').Gateway
 const config = require('./config')
 
-const run = require('./user')
+const fct = require('./user')
 
 class JsHelper extends Gateway {
   constructor(options) {
